@@ -24,6 +24,19 @@ test_prompt_list = [
 "Make a coding challenge for Python with 3 questions and answers"
 ]
 
+## Environment Setup and Requirement 
+-- PC with at least 32 GB Ram
+-- GPU with 24 GB VRAM
+
+## Run Test 
+```
+# if required
+pip install -r requirements.txt
+
+# run inference test
+python speculative_decoding_evaluation.py
+```
+
 ## Test Result (in seconds)
 Native Decoding only:
 ['68.12223672866821', '55.81372261047363', '20.210347890853882', '28.41849422454834', '72.30130910873413', '68.66965794563293', '69.7259030342102']
