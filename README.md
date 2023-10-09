@@ -39,11 +39,13 @@ python speculative_decoding_evaluation.py
 
 ## Test Result (in seconds)
 Native Decoding only:
+```
 ['68.12223672866821', '55.81372261047363', '20.210347890853882', '28.41849422454834', '72.30130910873413', '68.66965794563293', '69.7259030342102']
-
+```
 With Assisted Speculate Decoding :
+```
 ['8.641464233398438', '38.08631610870361', '21.30632519721985', '8.92543363571167', '40.273754358291626', '38.650553941726685', '37.184149503707886']
-
+```
 ## Observation 
 Overall walltime suggest running Big and Small model in paralle -- Assisted Speculate Decoding reduce inference time at least by half.
 
