@@ -24,7 +24,7 @@ test_prompt_list = [
 "Make a coding challenge for Python with 3 questions and answers"
 ]
 
-## Test Result
+## Test Result (in seconds)
 Native Decoding only:
 ['68.12223672866821', '55.81372261047363', '20.210347890853882', '28.41849422454834', '72.30130910873413', '68.66965794563293', '69.7259030342102']
 
