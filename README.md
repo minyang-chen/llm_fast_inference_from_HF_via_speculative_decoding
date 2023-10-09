@@ -11,7 +11,6 @@ Google Research publish an interesting paper (Fast Inference from Transformers v
 E.g. Sample from TinyLlama quickly, then use LLaMA 13b to check the samples.
 
 ## Motivation
-Adding this kind of support to Inference would make LLM sampling much faster without change the output.
-
+Adding sepculate deconding support to Inference would make LLM sampling much faster without change the output.
 
 
