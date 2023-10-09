@@ -13,4 +13,24 @@ E.g. Sample from TinyLlama quickly, then use LLaMA 13b to check the samples.
 ## Motivation
 Adding sepculate deconding support to Inference would make LLM sampling much faster without change the output.
 
+## Test Prompts
+test_prompt_list = [
+"Name planets in our solar system",        
+"Give me detailed info about Justin Trudeau.",                 
+"Generate a few good titles for a draft of a post [type of transformer models]",
+"Write a 5-line poem that describes a cat in a creative and original way. Use the following words in your poem: cat, fur, tail, independent, and clean.",
+"Given the text below, generate Q&A from the text provide: [rewrite of minGPT that prioritizes teeth over education.]",
+"Write a highly detailed discussion response, in the structure of an essay, responding to the following prompt: Explain the causes of the Inflation and whether expansion played a role in the economic recession. Include evidence to support your argument.",
+"Make a coding challenge for Python with 3 questions and answers"
+]
+
+## Test Result
+Native Decoding only:
+['68.12223672866821', '55.81372261047363', '20.210347890853882', '28.41849422454834', '72.30130910873413', '68.66965794563293', '69.7259030342102']
+
+With Assisted Speculate Decoding :
+['8.641464233398438', '38.08631610870361', '21.30632519721985', '8.92543363571167', '40.273754358291626', '38.650553941726685', '37.184149503707886']
+
+## Observation 
+Overall walltime suggest running Big and Small model in paralle -- Assisted Speculate Decoding reduce inference time at least by half.
 
