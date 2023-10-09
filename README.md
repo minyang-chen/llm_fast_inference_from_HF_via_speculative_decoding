@@ -15,6 +15,7 @@ Adding sepculate deconding support to Inference would make LLM sampling much fas
 
 ## Test Prompts
 test_prompt_list = [
+```
 "Name planets in our solar system",        
 "Give me detailed info about Justin Trudeau.",                 
 "Generate a few good titles for a draft of a post [type of transformer models]",
@@ -22,6 +23,7 @@ test_prompt_list = [
 "Given the text below, generate Q&A from the text provide: [rewrite of minGPT that prioritizes teeth over education.]",
 "Write a highly detailed discussion response, in the structure of an essay, responding to the following prompt: Explain the causes of the Inflation and whether expansion played a role in the economic recession. Include evidence to support your argument.",
 "Make a coding challenge for Python with 3 questions and answers"
+```
 ]
 
 ## Environment Setup and Requirement 
